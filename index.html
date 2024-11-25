@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bio Page</title>
+    <link rel="icon" type="image/x-icon" href="assets\me.png">
+   <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="bootstrap-5.3.3-dist\js\bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="navigation">
+        <div>
+            <nav class="navbar bg-white navbar-expand-lg">
+                <div class="container-fluid">
+                    <!--logo-->
+                  <a class="navbar-brand" href="#">Jonah</a>
+                  <!--toggle btn-->
+                  <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                   aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!--sidebar-->
+                  <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                   <!--sidebarheader-->
+                    <div class="offcanvas-header text-white border-bottom">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jonah</h5>
+                      <button type="button" 
+                      class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!--sidebar body-->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                      <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#navigation">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interest">Interest</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                          </li>
+                          </ul>
+                          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                             <a href="business_card.html" class="nav-link">business-card</a>
+                            <a href="#contact" class="text-white text-decoration-none px-3 py-1 
+                            rounded-4" style="background-color:#f94ca4">Contact</a>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    </div>
+    </section>
+    <div class="bg-secondary  container-fluid py-3">
+    <header class="bg-info text-center mb-2 p-4" style="height:300px">
+        <img src="assets\jonah.jpg" height="180" width="180" alt="myface" class="img-fluid rounded-circle mx-auto d-block" style="max-width:100%; height:200px;">
+        <h5>Jonah</h5>
+        <p>Junior Web Developer</p>
+    </header>
+    <main>
+        <section id="about">
+            <div class="p-3 mb-2 bg-white">
+                <h5>About me</h5>
+                <hr>
+               <p> I am a passionate computer science student at the University of Kabianga, driven by an insatiable curiosity for technology and innovation. As an aspiring full-stack developer and cloud
+                computing enthusiast, I am committed to pushing the boundaries of software engineering and technological solutions. My journey is defined by a relentless pursuit of knowledge, strategic 
+                problem-solving, and the ability to transform complex challenges into elegant technological solutions.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="bg-white mb-2 p-3">
+                <h5>Skills</h5>
+                <hr>
+    <p>With proficiency in multiple programming languages including: <br>
+        <span> <button class="btn btn-info" type="button">Javascript</button></span>
+        <span> <button class="btn btn-info" type="button">Python</button>
+        <button class="btn btn-info" type="button">C++</button></span>
+    <span> <button class="btn btn-info" type="button">C</button></span>
+     <span> <button class="btn btn-info" type="button">PHP</button></span>
+         <span> <button class="btn btn-info" type="button">SQL</button></span><br>
+        I bring a versatile skill set to every project. My academic and practical experiences have equipped me with a robust understanding of software development, data analysis, and emerging technologies.
+    I thrive in dynamic environments, consistently demonstrating the ability to adapt, learn, and deliver high-impact results.</p>
+            </div>
+        </section>
+       <section id="education">
+        <div class="bg-white mb-2 p-3">
+            <h5>Education</h5>
+            <hr>
+<p>As a passionate computer science student at the University of Kabianga, I am committed to mastering the intricacies of software development. My academic journey is focused on building a strong technical foundation through a comprehensive curriculum that bridges 
+    theoretical knowledge with practical skills.</p>
+    <p>My education encompasses a robust blend of core computer science disciplines, including data structures, object-oriented programming, software engineering, and advanced web development. I've gained hands-on experience in database management, computer networks,
+and operating systems, equipping me with the technical versatility required in today's dynamic tech landscap</p>
+<a href="assets\Jonah.pdf" download>Download CV</a>
+</div>
+       </section>
+       <section id="interest">
+        <div class="bg-white mb-2 p-3">
+            <h5>Technology Passions</h5>
+            <hr>
+            <p>My journey in technology is driven by a relentless curiosity to transform innovative ideas into impactful solutions. As a full stack developer and cloud computing enthusiast, I'm passionate about creating seamless digital experiences that solve real-world challenges.</p>
+          <h6>Key Interests</h6>
+           <ul>
+            <li>Full Stack Development: Bridging elegant frontend design with robust backend architecture</li>
+            <li>Cloud Computing: Exploring scalable technological solutions that democratize access</li>
+        </ul>
+        <p>My approach is defined by continuous learning, strategic problem-solving, and the belief that software can be a powerful catalyst for meaningful change.</p>
+        </div>  
+       </section>
+       <section id="projects">
+        <div class="bg-white mb-2 p-3">
+            <h2>Projects</h2>
+            <hr>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets\UOK.jpeg" alt="Project 1">
+                    <div class="project-content">
+                        <h5>Campus Network Security System (2024)</h5>
+ <p>Developing an innovative approach to secure the University of Kabianga's LAN, with a specific focus on wireless network vulnerabilities.
+ The project aims to implement a unique access control mechanism that restricts device usage
+  to a single user at a time, addressing critical security challenges in campus network infrastructure.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="assets\coffee.png" alt="Project 2">
+                    <div class="project-content">
+                        <h6>Hyphine Coffee Order Website (2023)</h6>
+                        <p>Designed and developed a responsive web application for Hyphine Restaurant, enabling seamless online coffee ordering. The project showcases:</p>
+                        <ol>
+                            <li>Clean, intuitive user interface</li>
+                            <li>Comprehensive menu presentation</li>
+                            <li>Responsive design using HTML and CSS</li>
+                            <li>Streamlined ordering process for coffee enthusiasts</li>
+                        </ol>
+                    <p>The website demonstrates my ability to create functional, user-friendly web interfaces that enhance digital customer experiences.</p>
+                        <a href="https://jonah201.github.io/hyphine.io/">View Project</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="text-center bg-white p-4">
+                <h5>Get In Touch</h5>
+                <hr>
+                <form action="#" method="POST">             
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="firstname" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="secname" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="jonahexample@gmail.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="07123456789">
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <select class="form-select" id="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="consulting">Technical Consulting</option>
+                            <option value="job">Job Opportunity</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your text goes here" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-info text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Jonah Tarus</h5>
+                    <p>Computer Science Student | Full Stack Developer | Tech Innovator</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#navigation" class="text-white">Home</a></li>
+                        <li><a href="#about" class="text-white">Projects</a></li>
+                        <li><a href="#skills" class="text-white">Skills</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect</h5>
+                    <div class="social-icons">
+                        <a href="https://github.com/Jonah201" class="text-white me-3"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p class="mt-3">seturjonaht@gmail.com</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 Jonah Tarus. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</div>   
+</body>
+</html>
